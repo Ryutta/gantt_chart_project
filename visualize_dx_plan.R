@@ -46,7 +46,7 @@ p <- vistime(df,
              show_labels = TRUE)
 
 # Save the plot as an HTML file
-output_file <- "dx_plan_gantt.html"
+output_file <- "docs/index.html"
 saveWidget(p, output_file, selfcontained = TRUE)
 
 cat(paste("Successfully created Gantt chart:", output_file, "\n"))
